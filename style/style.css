@@ -11,7 +11,7 @@ input[type=text], input[type = email], textarea {
   
   /* Style the submit button with a specific background color etc */
   button[type=submit] {
-    background-color: #04AA6D;
+    background-color: #262730;
     color: white;
     padding: 12px 20px;
     border: none;
