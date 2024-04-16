@@ -45,6 +45,16 @@ selected = option_menu(
     styles=None
 )
 
+contact_form="""
+<form action="https://formsubmit.co/varotea@mpsabudhabi.com" method="POST">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="text" name="name" placeholder="Your Name"required>
+    <input type="email" name="email" placeholder="Your Email"required>
+    <textarea name="message" placeholder="Your message here"></textarea>
+    <button type="submit">Send</button>
+    <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+</form>
+"""
 # Main Page
 if selected == 'Home':
     # ---Header Section--
@@ -98,3 +108,12 @@ if selected == 'Home':
                      
 At Live Green, we understand your dedication to the environment, and our mission revolves around reducing the hurdles that individuals, like yourself, often confront. Our website is dedicated to delivering an optimal array of resources and services, designed to facilitate your journey towards sustainability.
 """)
+            
+# Contact Page      
+elif selected == "Contact Us":
+    st.title("✉️Get In Touch With Us!")
+    st.markdown(contact_form, unsafe_allow_html=True)
+
+    local_css("style/style.css")
+    if st.button("Submit"):
+        st.success("The query has been submitted")
