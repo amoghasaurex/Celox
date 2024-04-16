@@ -46,13 +46,12 @@ selected = option_menu(
 )
 
 contact_form="""
-<form action="https://formsubmit.co/varotea@mpsabudhabi.com" method="POST">
+<form action="https://formsubmit.co/teamceloxforms@gmail.com" method="POST">
     <input type="hidden" name="_captcha" value="false">
-    <input type="text" name="name" placeholder="Your Name"required>
+    <input type="text" name="name" placeholder="Your Name" required>
     <input type="email" name="email" placeholder="Your Email"required>
-    <textarea name="message" placeholder="Your message here"></textarea>
+    <textarea name="message" placeholder="Your Message"></textarea>
     <button type="submit">Send</button>
-    <input type="hidden" name="_next" value=" https://teamcelox.streamlit.app/ ">
 </form>
 """
 # Main Page
