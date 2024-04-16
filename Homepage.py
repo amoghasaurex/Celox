@@ -52,7 +52,6 @@ contact_form="""
     <input type="email" name="email" placeholder="Your Email"required>
     <textarea name="message" placeholder="Your message here"></textarea>
     <button type="submit">Send</button>
-    <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
 </form>
 """
 # Main Page
