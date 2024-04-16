@@ -50,6 +50,7 @@ contact_form="""
     <input type="hidden" name="_captcha" value="false">
     <input type="text" name="name" placeholder="Your Name" required>
     <input type="email" name="email" placeholder="Your Email"required>
+    <input type="hidden" name="_next" value="https://teamcelox.streamlit.app/">
     <textarea name="message" placeholder="Your Message"></textarea>
     <button type="submit">Send</button>
 </form>
