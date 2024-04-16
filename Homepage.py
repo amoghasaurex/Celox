@@ -123,9 +123,8 @@ if selected == 'Our model':
             
 # Contact Page      
 elif selected == "Contact Us":
-    st.title("✉️Get In Touch With Us!")
+    st.title("✉️ Get In Touch With Us!")
     st.markdown(contact_form, unsafe_allow_html=True)
 
     local_css("style/style.css")
-    if st.button("Submit"):
-        st.success("The query has been submitted")
+
