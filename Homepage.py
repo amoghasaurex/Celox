@@ -98,3 +98,14 @@ if selected == 'Home':
                      
 At Live Green, we understand your dedication to the environment, and our mission revolves around reducing the hurdles that individuals, like yourself, often confront. Our website is dedicated to delivering an optimal array of resources and services, designed to facilitate your journey towards sustainability.
 """)
+            
+if selected == 'Our model':
+    # ---Header Section--
+
+
+    with st.container():
+
+        left_column, right_column = st.columns(2)
+        with left_column:
+            st.subheader('Our Model')
+    st.components.v1.iframe("https://v.creators3d.com/index.html?load=%2Fviews%2Fproduction%2Fitem%2F20240415%2F2940333525290959%2F2940333525290959.glb&autorotate=true&json-data=1713196174252&decrypt=1&tv=163", height=600, scrolling=False)
