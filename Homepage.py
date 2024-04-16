@@ -8,7 +8,7 @@ from appwrite.client import Client
 from appwrite.services.databases import Databases
 
 # set_page_config
-st.set_page_config(page_title="Celox 🏎️", page_icon="Celox2_bg.png", layout='wide',
+st.set_page_config(page_title="Team Celox 🏎️", page_icon="Celox2_bg.png", layout='wide',
                    initial_sidebar_state='collapsed')
 
 # Setting Up page configs
@@ -55,6 +55,10 @@ contact_form="""
     <button type="submit">Send</button>
 </form>
 """
+
+
+
+
 # Main Page
 if selected == 'Home':
     # ---Header Section--
@@ -64,18 +68,25 @@ if selected == 'Home':
 
         left_column, right_column = st.columns(2)
         with left_column:
-            st.subheader('Home')
+            st.subheader('Roles and Goals')
             st.write("""
-                In today's world, it's more important than ever to live sustainably. But with so many different ways to reduce our environmental impact, it can be difficult to know where to start. That's where the new app, Live Green, comes in.
-
-            Live Green is a one-stop shop for all things sustainable. It provides users with a wealth of information on how to reduce their carbon footprint, conserve resources, and live more eco-friendly lives. The app also features a variety of tools and resources to help users make sustainable choices, such as:
-
-            A searchable database of sustainable businesses and products
-            A carbon footprint calculator
-            A recycling and composting guide
-            Tips on how to reduce energy consumption
-            A community forum where users can connect with other sustainability-minded people
-            Live Green is the perfect tool for anyone who wants to live more sustainably. It's easy to use, informative, and comprehensive. With Live Green, you can make a difference for the planet, one small step at a time.""")
+                To increase effectiveness and responsibility, we
+have defined roles and duties for every team
+member. The positions of Team Leader, Design
+Engineer, Graphics Engineer, Production
+Manager, Marketing Manager, and Sponsorship
+Manager are those in our team structure. Every
+team member is committed to doing their
+responsibilities to the best of their ability and is
+aware of what their roles are. Our main
+objective is to create and produce a highperformance, innovative, and fast miniature
+automobile. In order to obtain funding and
+support for our project, we also want to
+properly promote it to possible sponsors and
+stakeholders. We hope to improve our STEM
+knowledge, collaborative skills, and project
+management abilities through this project.
+""")
 
         with right_column:
             st_lottie(
@@ -95,6 +106,16 @@ if selected == 'Home':
             st.write("")
             st.write("")
             st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
             st_lottie(
                 lottie_hello,
                 speed=1,
@@ -103,11 +124,49 @@ if selected == 'Home':
                 height=400,
             )
         with right_column:
-            st.subheader("")
-            st.write("""Extensive research indicates that the level of resistance one encounters when attempting to establish a habit is inversely proportional to the habit's likelihood of becoming a permanent part of their routine.
-                     
-At Live Green, we understand your dedication to the environment, and our mission revolves around reducing the hurdles that individuals, like yourself, often confront. Our website is dedicated to delivering an optimal array of resources and services, designed to facilitate your journey towards sustainability.
+            st.subheader("Resource & Budget")
+            st.write("""To guarantee optimal utilisation, we have
+thoroughly evaluated our resource
+requirements and distributed them
+accordingly. Materials for making cars,
+availability of tools and equipment, and
+human resources including team members'
+time and knowledge are all included in this.
+A comprehensive financial plan has been
+established, accounting for expenditures
+related to procurement, production,
+advertising, transportation, and other
+incidentals. We pledge to appropriately
+manage our budget so that we may
+maximise the value of our expenses while
+remaining within our means.
 """)
+        with left_column:
+            st.subheader('Quality Control & Scope')
+            st.write("""
+                To increase effectiveness and responsibility, we
+have defined roles and duties for every team
+member. The positions of Team Leader, Design
+Engineer, Graphics Engineer, Production
+Manager, Marketing Manager, and Sponsorship
+Manager are those in our team structure. Every
+team member is committed to doing their
+responsibilities to the best of their ability and is
+aware of what their roles are. Our main
+objective is to create and produce a highperformance, innovative, and fast miniature
+automobile. In order to obtain funding and
+support for our project, we also want to
+properly promote it to possible sponsors and
+stakeholders. We hope to improve our STEM
+knowledge, collaborative skills, and project
+management abilities through this project.
+""")
+            
+            
+            
+            
+            
+            
             
 if selected == 'Our model':
     # ---Header Section--
@@ -117,9 +176,26 @@ if selected == 'Our model':
 
         left_column, right_column = st.columns(2)
         with left_column:
-            st.subheader('Our Model')
+            st.subheader('  ')
     st.components.v1.iframe("https://v.creators3d.com/index.html?load=%2Fviews%2Fproduction%2Fitem%2F20240415%2F2940333525290959%2F2940333525290959.glb&autorotate=true&json-data=1713196174252&decrypt=1&tv=163", height=600, scrolling=False)
+if selected == 'Team Identity':
+    # ---Header Section--
 
+
+    with st.container():
+
+        left_column,centre_coulmn, right_column = st.columns(3)
+        with left_column:
+            st.write('')
+            st.components.v1.iframe("https://gcdnb.pbrd.co/images/cvn5JJOhcuTP.png?o=1", height=500, width=1737, scrolling=False)
+            st.components.v1.iframe("https://gcdnb.pbrd.co/images/9QrkmN87vjbd.png?o=1", height=850, width=1737, scrolling=False)
+            
+            
+            
+            
+            
+            
+            
             
 # Contact Page      
 elif selected == "Contact Us":
