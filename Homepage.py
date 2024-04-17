@@ -243,6 +243,7 @@ hide_streamlit_style="""
 #MainMenu{visibility:hidden}
 footer{visibility:hidden}
 stToolbar{visibility:hidden}
+stHeader{visibility:hidden}
 </style>
 
 """
