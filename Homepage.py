@@ -177,11 +177,9 @@ if selected == 'Our model':
         left_column, right_column = st.columns(2)
         with left_column:
             st.subheader('  ')
-    st.components.v1.iframe("https://v.creators3d.com/index.html?load=%2Fviews%2Fproduction%2Fitem%2F20240415%2F2940333525290959%2F2940333525290959.glb&autorotate=true&json-data=1713196174252&decrypt=1&tv=163", height=600, scrolling=False)
+    st.components.v1.iframe("https://v.creators3d.com/index.html?load=%2Fviews%2Fproduction%2Fitem%2F20240417%2F2224936622320021%2F2224936622320021.glb&autorotate=true&json-data=1713340706598&decrypt=1&tv=163", height=700, scrolling=False)
     
-    
-    
-    
+
     
 if selected == 'About us':
     # ---Header Section--
