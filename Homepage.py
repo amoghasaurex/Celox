@@ -178,9 +178,13 @@ if selected == 'Our model':
         with left_column:
             st.subheader('  ')
     st.components.v1.iframe("https://v.creators3d.com/index.html?load=%2Fviews%2Fproduction%2Fitem%2F20240415%2F2940333525290959%2F2940333525290959.glb&autorotate=true&json-data=1713196174252&decrypt=1&tv=163", height=600, scrolling=False)
-if selected == 'Team Identity':
+    
+    
+    
+    
+    
+if selected == 'About us':
     # ---Header Section--
-
 
     with st.container():
 
@@ -189,9 +193,6 @@ if selected == 'Team Identity':
             st.write('')
             st.components.v1.iframe("https://gcdnb.pbrd.co/images/cvn5JJOhcuTP.png?o=1", height=500, width=1737, scrolling=False)
             st.components.v1.iframe("https://gcdnb.pbrd.co/images/9QrkmN87vjbd.png?o=1", height=850, width=1737, scrolling=False)
-            
-            
-            
             
             
             
