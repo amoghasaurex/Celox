@@ -35,6 +35,8 @@ def load_lottieurl(url: str):
 #lottie files
 lottie_hello = load_lottiefile("F1_home.json")
 lottie_why = load_lottiefile("F1_somedude.json")
+lottiewhynot = load_lottiefile("F1-last.json")
+
 # Navbar
 selected = option_menu(
     menu_title=None,
@@ -68,6 +70,11 @@ if selected == 'Home':
 
         left_column, right_column = st.columns(2)
         with left_column:
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
             st.subheader('Roles and Goals')
             st.write("""
                 To increase effectiveness and responsibility, we
@@ -89,14 +96,15 @@ management abilities through this project.
 """)
 
         with right_column:
+            st.write("")
+            st.write("")
             st_lottie(
-                lottie_why,
+                lottie_hello,
                 speed=1,
                 reverse=False,
                 loop=True,
-                quality="low",  # medium ; high
-                height=500,
-                width=None,
+                quality="high",  # medium ; high
+                height=450,
             )
 
         with left_column:
@@ -109,21 +117,27 @@ management abilities through this project.
             st.write("")
             st.write("")
             st.write("")
-            st.write("")
-            st.write("")
-            st.write("")
-            st.write("")
-            st.write("")
-            st.write("")
-            st.write("")
             st_lottie(
-                lottie_hello,
+                lottie_why,
                 speed=1,
                 reverse=False,
                 loop=True,
-                height=400,
+                quality="high",
+                height=600,
             )
+            
+    
         with right_column:
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
             st.subheader("Resource & Budget")
             st.write("""To guarantee optimal utilisation, we have
 thoroughly evaluated our resource
@@ -142,6 +156,10 @@ maximise the value of our expenses while
 remaining within our means.
 """)
         with left_column:
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
             st.subheader('Quality Control & Scope')
             st.write("""
                 To increase effectiveness and responsibility, we
@@ -161,12 +179,30 @@ stakeholders. We hope to improve our STEM
 knowledge, collaborative skills, and project
 management abilities through this project.
 """)
+        with right_column:
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st_lottie(
+                lottiewhynot,
+                speed=1,
+                reverse=False,
+                loop=True,
+                quality="high",  # medium ; high
+                height=550,
+                width=None,
+            )
+            
+
+
             
             
-            
-            
-            
-            
+             
             
 if selected == 'Our model':
     # ---Header Section--
@@ -177,7 +213,7 @@ if selected == 'Our model':
         left_column, right_column = st.columns(2)
         with left_column:
             st.subheader('  ')
-    st.components.v1.iframe("https://v.creators3d.com/index.html?load=%2Fviews%2Fproduction%2Fitem%2F20240417%2F2224936622320021%2F2224936622320021.glb&autorotate=true&json-data=1713340706598&decrypt=1&tv=163", height=700, scrolling=False)
+    st.components.v1.iframe("https://v.creators3d.com/index.html?load=%2Fviews%2Fproduction%2Fitem%2F20240417%2F2224936622320021%2F2224936622320021.glb&autorotate=true&json-data=1713340706598&decrypt=1&tv=163",height=575, scrolling=False)
     
 
     
