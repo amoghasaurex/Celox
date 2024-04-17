@@ -244,6 +244,10 @@ hide_streamlit_style="""
 footer{visibility:hidden}
 stToolbar{visibility:hidden}
 stHeader{visibility:hidden}
+stActionButtonIcon{visibility:hidden}
+stActionButtonLabel{visibility:hidden}
+stActionButton{visibility:hidden}
+baseButton-header{visibility:hidden}
 </style>
 
 """
